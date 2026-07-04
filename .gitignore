@@ -1,0 +1,146 @@
+# ==================================================
+# Python
+# ==================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking / linting
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==================================================
+# Node.js
+# ==================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Package manager
+.pnpm-store/
+
+# Build output
+dist/
+build/
+.next/
+.nuxt/
+.out/
+coverage/
+
+# Vite
+vite.svg
+
+# ==================================================
+# Environment Variables
+# ==================================================
+.env
+.env.*
+!.env.example
+
+# ==================================================
+# IDE / Editor
+# ==================================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+
+# ==================================================
+# Operating System
+# ==================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================================================
+# Logs
+# ==================================================
+logs/
+*.log
+
+# ==================================================
+# Temporary Files
+# ==================================================
+tmp/
+temp/
+.cache/
+
+# ==================================================
+# Database
+# ==================================================
+*.sqlite3
+*.db
+
+# ==================================================
+# Uploads / Generated Files
+# ==================================================
+uploads/
+media/
+staticfiles/
+
+# ==================================================
+# Machine Learning (Optional)
+# Uncomment if your project uses ML models
+# ==================================================
+# models/
+# checkpoints/
+# weights/
+# *.pt
+# *.pth
+# *.ckpt
+# *.h5
+# *.keras
+# *.onnx
+# *.joblib
+# *.pkl
+
+# ==================================================
+# Docker
+# ==================================================
+*.pid
+
+# ==================================================
+# Secrets
+# ==================================================
+*.pem
+*.key
+*.crt
+*.p12
+
+# ==================================================
+# Misc
+# ==================================================
+*.swp
+*.swo
+*~
+*.mp4 
